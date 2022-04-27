@@ -1,0 +1,15 @@
+<form (ngSubmit)="create()">
+    <input type="text"
+    name="nombre"
+    required
+    [(ngModel)]="producto.nombre"/>
+    <br/>
+    <input type="text"
+    name="proovedor"
+    required
+    [(ngModel)]="producto.proovedor"/>
+    <br/>
+    <button class="btn btn-danger"
+    type="submit">Insertar</button>
+
+</form>

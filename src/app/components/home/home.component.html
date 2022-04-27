@@ -1,0 +1,16 @@
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <th>id</th>
+        <th>Nombre</th>
+        <th>Proovedor</th>
+        <th>Imagen</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let producto of productos">
+            <td>{{producto.id}}</td>
+            <td>{{producto.nombre}}</td>
+            <td>{{producto.proovedor}}</td>
+            <td>{{producto.imagen}}</td>
+        </tr>
+    </tbody>
+</table>
